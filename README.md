@@ -8,10 +8,10 @@ git config --global core.editor "vim"
 
 git config --list
 
-veamos que ocurre, porque parece que no salen los cambios
+git add <fileName>
+
+git --status
+
+git log --all --decorate --graph --oneline
 
 
-un nuevo cambio para ir afianzando conocimientos practicando los commits
-
-
-bien esta muy sencillo de utilizar

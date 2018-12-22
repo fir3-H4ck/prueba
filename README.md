@@ -21,4 +21,13 @@ ssh-keygen -t rsa -C "super@kripton.sup"
 se puede elegir la ruta que uno desee para guardar las llaves
 la llave de paso se puede dejar vacia
 
+#Crear un nuevo repositorio
+Se crean los archivos (codigos, documentación, etc...)
+git init
+git add <archivos>
+git commit -m "mensaje del commit"
+git remote add origin https://github.com/la_ruta_del_repositorio.git
+git push -u origin master
+
+
 

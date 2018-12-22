@@ -23,6 +23,15 @@ la llave de paso se puede dejar vacia
 
 Se copia el contenido de la llave publica (ojo la publica no la privada), y se sube a github en settings
 
+#Visualizar las conexiones remotas (en realidad revisar a donde apunta nuestro repositorio)
+git remote -v
+
+#Eliminar una de las "conexiones remotas"
+git remote remove <nombre-de-repositorio>
+
+#Agregar una "conexión" en este caso la dirección puede ser por ssh o por https
+git remote add <nombre-de-repositorio>
+
 #Crear un nuevo repositorio
 Se crean los archivos (codigos, documentación, etc...)
 
